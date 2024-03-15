@@ -13,7 +13,7 @@ yesBtn.addEventListener('click', () => {
 noBtn.addEventListener('click', () => {
     question.innerHTML = 'you hate me this much';
 });
-noBtn.addEventListener('mouseover', () => {
+noBtn.addEventListener('mousemove', () => {
     const i = Math.floor(Math.random() *
      (wrapperRect.width - noBtnRect.width)) + 1;
     const j = Math.floor(Math.random() * 
