@@ -10,6 +10,9 @@ const noBtnRect = noBtn.getBoundingClientRect();
 yesBtn.addEventListener('click', () => {
     question.innerHTML = 'I Love You Too 💗';
 });
+noBtn.addEventListener('click', () => {
+    question.innerHTML = 'you hate me this much';
+});
 noBtn.addEventListener('mouseover', () => {
     const i = Math.floor(Math.random() *
      (wrapperRect.width - noBtnRect.width)) + 1;
